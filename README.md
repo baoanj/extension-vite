@@ -1,6 +1,6 @@
 # Chrome Extension Vite Boilerplate
 
-Developing `Chrome Extension` using `Vue 3 + Typescript + Vite`
+Developing `Chrome Extension` using `Vue 3 + Typescript + Vite` with `HMR`
 
 ## Start
 ```bash
@@ -9,7 +9,7 @@ $ pnpm build
 ```
 1. Open `chrome://extensions/`
 2. Open `Developer Mode`
-3. Load `folder ./extension`
+3. Load `extension-vite/extension`
 
 ## Vue 3 + Typescript + Vite
 
