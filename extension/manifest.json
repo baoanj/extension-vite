@@ -1,0 +1,11 @@
+{
+  "name": "Vite Chrome Extension",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "minimum_chrome_version": "90",
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_title": "Vite Chrome Extension",
+    "default_popup": "dist/index.html"
+  }
+}
