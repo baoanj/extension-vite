@@ -1,11 +1,11 @@
 {
-  "name": "Markable",
+  "name": "Mine",
   "version": "1.0.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "minimum_chrome_version": "90",
-  "browser_action": {
+  "action": {
     "default_icon": "logo.png",
-    "default_title": "Markable",
+    "default_title": "Mine",
     "default_popup": "dist/index.html"
   },
   "icons": {
@@ -13,12 +13,7 @@
     "48": "logo.png",
     "128": "logo.png"
   },
-  "background": {
-    "scripts": ["background.js"]
-  },
   "permissions": [
-    "contextMenus",
-    "notifications",
     "storage",
     "unlimitedStorage"
   ]
